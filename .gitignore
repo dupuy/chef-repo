@@ -11,3 +11,17 @@
 ###
 cookbooks/*/
 cookbooks/*-*
+
+###
+# Ignore various kinds of junk
+###
+
+# emacs
+*~
+
+# vim
+*.sw[a-z]
+
+# subversion
+.svn
+*.svn
